@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-color: #333;
 }
 
 #container {
@@ -15,10 +16,11 @@ body {
     border: 1px solid rgb(201, 198, 199);
     margin: 0 auto;
     height: 100vh;
+    background-color: white;
 }
 
 #container h1{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #Kopf{
@@ -28,6 +30,13 @@ body {
     padding: 0.5em;
     font-weight: bold;
     box-shadow: 0px 5px 30px 0px grey;
+    font-size: 30px;
+    display: flex;
+}
+
+#Kopf img{
+    max-width: 30px;
+    padding-right: 10px;
 }
 
 #Kopf #tagline {
